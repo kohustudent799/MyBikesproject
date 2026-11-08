@@ -90,7 +90,7 @@ public class AddEditBikeActivity extends AppCompatActivity {
 
         bikeId = getIntent().getStringExtra("bike_id");
         if (bikeId != null) {
-            title.setText("Edit bike");
+            title.setText("Edit your bike");
             DataStore.get().runWhenLoaded(() -> {
                 editing = DataStore.get().bike(bikeId);
                 if (editing == null) { finish(); return; }
@@ -108,7 +108,7 @@ public class AddEditBikeActivity extends AppCompatActivity {
                 Ui.loadPhoto(ivPhoto, editing.getPhotoUrl());
             });
         } else {
-            title.setText("Add a bike");
+            title.setText("Add a new bike");
         }
     }
 
