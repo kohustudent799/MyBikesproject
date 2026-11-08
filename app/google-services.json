@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "604822102825",
+    "firebase_url": "https://mybike1-4a3a9-default-rtdb.firebaseio.com",
+    "project_id": "mybike1-4a3a9",
+    "storage_bucket": "mybike1-4a3a9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604822102825:android:8a267358b121fc01230d38",
+        "android_client_info": {
+          "package_name": "com.utshob.mybikes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQhzp2P-4SHEw9yMxLk6h7FfAvt2VMvM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
