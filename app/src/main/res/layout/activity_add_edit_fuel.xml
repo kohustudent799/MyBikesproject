@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:id="@+id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="22sp" android:textStyle="bold" />
+        <TextView style="@style/Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Date and time" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnDateTime" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="" />
+        <com.google.android.material.textfield.TextInputLayout style="@style/Field" android:hint="Odometer (km)">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/etOdo" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView style="@style/Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Fuel type" />
+        <Spinner android:id="@+id/spFuelType" android:layout_width="match_parent" android:layout_height="48dp" />
+        <com.google.android.material.textfield.TextInputLayout style="@style/Field" android:hint="Price per litre (BDT)">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/etPrice" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout style="@style/Field" android:hint="Total amount paid (BDT)">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/etCost" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout style="@style/Field" android:hint="Fuel quantity (litres)">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/etLitres" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:id="@+id/tvPreview" style="@style/Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+        <com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/swFull" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Full tank (off = partial refill)" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnSave"  android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Save fuel record" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures
+.externalNativeBuild
+.cxx
+*.jks
+*.keystore
+keystore.properties
+# google-services.json holds your Firebase keys. Commit it only if you are OK with that.
+# app/google-services.json

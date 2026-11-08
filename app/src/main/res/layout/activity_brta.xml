@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BRTA services" android:textColor="@color/text_primary" android:textSize="22sp" android:textStyle="bold" />
+        <TextView style="@style/SectionTitle" android:text="Online service" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnPortal"  android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="BRTA service portal" />
+        <TextView style="@style/SectionTitle" android:text="Helpline" />
+        <com.google.android.material.card.MaterialCardView style="@style/AppCard"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+        <TextView android:id="@+id/tvHelpline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/navy" android:textSize="22sp" android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnCall"  android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Call (opens dialer)" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnCopy" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Copy number" />
+        </LinearLayout></com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>
