@@ -35,7 +35,7 @@ public class AddEditBikeActivity extends AppCompatActivity {
     private ProgressBar progress;
     private View root;
 
-    private String bikeId;          // null = adding
+    private String bikeId;
     private Bike editing;
     private long purchaseDate = System.currentTimeMillis();
     private Uri newPhotoUri;
