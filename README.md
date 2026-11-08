@@ -31,7 +31,7 @@ Track your motorcycles: full-tank mileage, fuel history, monthly expenses, maint
 3. Build > Authentication > Sign-in method: enable Email/Password and Google.
 4. Build > Realtime Database > Create database in LOCKED mode. Paste `firebase/database.rules.json` into Rules and publish.
 5. SHA-1: Gradle panel > app > Tasks > android > signingReport (debug). Add it in Project settings > your Android app, then download google-services.json again.
-
+ Note : For SHA-1 RUN IN ANDROID STODIO  TERMINAL= gradlew signingReport
 ## BRTA links and helpline
 The BSP link and hotline are set in `AppConfig.java`. Re-check the hotline on brta.gov.bd before submission.
 
